@@ -5,3 +5,8 @@ python-multipart
 sqlalchemy
 pdfplumber
 pydantic[email]
+fastapi
+uvicorn
+python-multipart
+google-genai
+pymupdf
