@@ -56,3 +56,4 @@ async def upload_resume(file: UploadFile = File(...)):
             os.remove(file_location) [cite: 1]
         if os.path.isdir('uploads'):
             shutil.rmtree('uploads') [cite: 1]
+            
