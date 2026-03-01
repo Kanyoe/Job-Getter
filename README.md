@@ -1,20 +1,19 @@
-# Job-Getter
+# Job Getter
 
-## Setup
+Updated module path.
 
-1. Clone this repo
-2. Create and activate a Python 3.10+ virtual environment
-3. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Run the server:
-   ```
-   uvicorn app.main:app --reload
-   ```
+## Usage
 
-## Endpoints
+To run the application, use the following command:
 
-- `POST /profile/` → Create user profile
-- `POST /resume/{user_id}` → Upload and parse resume PDF
-- `POST /preferences/{user_id}` → Save job search preferences
+```bash
+uvicorn main:app
+```
+
+## Getting Started
+
+1. Clone the repository.
+2. Install dependencies using `pip install -r requirements.txt`.
+3. Run the app: `uvicorn main:app`.
+
+For further details, refer to the project documentation.
