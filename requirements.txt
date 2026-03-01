@@ -1,1 +1,7 @@
 email-validator
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+pdfplumber
+pydantic[email]
