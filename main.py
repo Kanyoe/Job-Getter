@@ -19,3 +19,4 @@ def upload_resume(file: UploadFile = File(...), some_dependency: SomeDependency 
             os.remove(file_location)
         # Optionally, clean up the directory if needed
         shutil.rmtree('uploads') if os.path.isdir('uploads') else None
+uvicorn main:app
